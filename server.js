@@ -17,7 +17,7 @@ const db = admin.firestore();
 const app = express();
 
 app.use(cors({
-  origin: 'https://volley-notify.netlify.app/' 
+  origin: 'https://volley-notify.netlify.app' 
 }));
 app.use(bodyParser.json());
 
